@@ -1,0 +1,200 @@
+/* General Styles */
+.EventPage {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(180deg, #C89595 0%, #C89595 100%);
+    color: #6C4A4A;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0px; */
+    background-color: #EDEDED 
+}
+
+
+
+.navEvent button {
+    background-color: #6C4A4A;
+    color: #EDEDED;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.navEvent button:hover {
+    background-color: #C89595;
+}
+
+
+/* Hero Section */
+.heroEvent {
+    margin-top: 50px;
+    flex-grow: 1; 
+}
+
+.heroEvent h1 {
+    font-size: 4em;
+    color: #EDEDED;
+}
+
+.heroEvent p {
+    font-size: 1.2em;
+    color: #DDBEBE;
+}
+
+.watch-demo {
+    background-color: #6C4A4A;
+    color: #EDEDED;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+    transition: background-color 0.3s ease;
+}
+
+.watch-demo:hover {
+    background-color: #C89595;
+}
+
+/* Card Section */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px 0;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Left card (with top-right cave) */
+.card.left {
+    clip-path: polygon(0 0, calc(100% - 60px) 0, 100% 80px, 100% 100%, 0 100%);
+    position: relative;
+   
+}
+
+
+/* Right card (with top-left cave) */
+.card.right {
+    clip-path: polygon(80px 0, 100% 0, 100% 100%, 0 100%, 0 80px);
+    position: relative;
+}
+
+
+
+.card h2 {
+    color: #6C4A4A;
+    font-size: 1.8em;
+}
+
+.card button {
+    background-color: #6C4A4A;
+    color: #EDEDED;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #C89595;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .heroEvent h1 {
+        font-size: 2.5em;
+    }
+
+    .heroEvent p {
+        font-size: 1em;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .watch-demo {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heroEvent h1 {
+        font-size: 2em;
+    }
+
+    .heroEvent p {
+        font-size: 0.9em;
+    }
+
+    .watch-demo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .cards {
+        gap: 10px;
+    }
+
+    .card {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .card h2 {
+        font-size: 1.5em;
+    }
+}
+
+/* Logo Image Styles */
+.logo-img {
+    width: 100px; /* Adjust the size of the logo */
+    height: 100px; /* Maintain aspect ratio */
+    cursor: pointer; /* Make the logo clickable */
+    transition: transform 0.3s ease; /* Smooth animation when hovered */
+}
+
+.logo-img:hover {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+}

@@ -1,0 +1,58 @@
+
+  
+
+   .dashboard-container {
+    padding: 20px;
+    margin-left: 200px; /* This margin should match the sidebar width */
+  }
+  
+  .dashboard-header h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .dashboard-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .stat-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .stat-card h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .stat-card p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .payment-tracking {
+    margin-top: 40px;
+  }
+  
+  .payment-tracking h2 {
+    color: #333;
+  }
+  
+  .payment-tracking ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .payment-tracking li {
+    background: #f1f1f1;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

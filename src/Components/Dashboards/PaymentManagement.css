@@ -1,0 +1,45 @@
+
+
+   .payment-management-container {
+    padding: 20px;
+    margin-left: 200px; 
+  }
+  
+  .payment-management-container h1 {
+    font-size: 28px;
+    color: #6C4A4A;
+  }
+  
+  .payment-search {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #DDBEBE;
+    border-radius: 5px;
+  }
+  
+  .payment-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .payment-table th, .payment-table td {
+    border: 1px solid #6C4A4A;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .payment-table th {
+    background-color: #6C4A4A;
+    color: #DDBEBE;
+  }
+  
+  .payment-table tr:nth-child(even) {
+    background-color: #EDEDED;
+  }
+  
+  .payment-table tr:hover {
+    background-color: #DDBEBE;
+  }
+  

@@ -1,0 +1,54 @@
+
+
+.user-management-container {
+  padding: 20px;
+  margin-left: 200px; /* This margin should match the sidebar width */
+}
+
+.user-management-container h1 {
+  font-size: 28px;
+  color: #6C4A4A;
+}
+
+.user-management-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #6C4A4A;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #C89595;
+  color: #EDEDED;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #EDEDED;
+}
+
+.user-table tr:hover {
+  background-color: #EDEDED;
+}
+
+.user-table button {
+  background-color: #6C4A4A;
+  color: #EDEDED;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.user-table button:hover {
+  background-color: #6C4A4A;
+}

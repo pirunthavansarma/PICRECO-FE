@@ -1,0 +1,72 @@
+/* General Layout */
+.dashboard-layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Custom Sidebar Styles */
+  .custom-sidebar {
+    width: 250px;
+    background-color: #C89595; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .custom-sidebar-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .custom-sidebar-menu button {
+    padding: 15px;
+    color: white;
+    background-color: #C89595; /* Muted pink for menu buttons */
+    border: none;
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-sidebar-menu button:hover {
+    background-color: #DDBEBE; /* Light pink on hover */
+  }
+  
+  .custom-sidebar-bottom {
+    margin-bottom: 20px;
+  }
+  
+  .custom-sidebar-bottom button {
+    padding: 15px;
+    color: white;
+    background-color: #C89595; /* Muted pink for bottom buttons */
+    border: none;
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-sidebar-bottom button:hover {
+    background-color: #DDBEBE; /* Light pink on hover */
+  }
+  
+  /* Main Content Area */
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #EDEDED; /* Light gray background for main content */
+  }
+  
+  .main-content h1 {
+    margin-top: 0;
+    color: #6C4A4A; /* Dark brown for headings */
+  }
+  
+  .main-content p {
+    color: #6C4A4A; /* Dark brown for text */
+  }
+  

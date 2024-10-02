@@ -1,0 +1,26 @@
+.main-admin-dashboard {
+    display: flex;
+  }
+  
+  .admin-dashboard-content {
+    flex: 1;
+    padding: 30px;
+  }
+  
+  .full-width {
+    width: 100%;
+    margin-left: 0; 
+  }
+  
+  /* .sidebar {
+    width: 150px;
+    background-color: #f8f9fa;
+    height: 100vh;
+  } */
+  
+  .user-management-container {
+    margin-left: 0;
+    padding: 20px;
+    max-width: 100%;
+  }
+  

@@ -1,0 +1,40 @@
+/* LandingNav.css */
+.landing-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:  #6C4A4A;
+    padding: 10px 20px;
+  }
+  
+  .landing-nav .logo img {
+    width: 110px;
+  }
+  
+  .landing-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .landing-nav ul li {
+    display: inline-block;
+  }
+  
+  .landing-nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+  }
+  
+  .landing-nav ul li a.active {
+    background-color: #DDBEBE;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .landing-nav ul li a:hover {
+    color: #EDEDED;
+  }
+  
