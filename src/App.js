@@ -122,6 +122,7 @@ import LandingPage from '../src/Components/LandingPage/LandingPage'; // Import L
 import FaceRecognition from '../src/Components/Client/FaceReconation';
 import ClientPhotoView from '../src/Components/Client/ClientPhotoView';
 import MyEvents from '../src/Components/EventManagement/MyEvents'
+import FolderPage from './Components/EventManagement/FolderPage';
 
 import './App.css';
 import Plans from './Components/EventManagement/Plans';
@@ -155,6 +156,7 @@ function App() {
         <Route path="/photoupload" element={<PrivateRoute role="user"><PhotoUpload /></PrivateRoute>} />
         <Route path="/MyEvents" element={<PrivateRoute role="user"><MyEvents /></PrivateRoute>} />
         <Route path="/Plans" element={<PrivateRoute role="user"><Plans /></PrivateRoute>} />
+        <Route path="/folder/:folderName" element={<FolderPage />} /> 
 
               {/* Admin Redirect */}
         <Route path="/admin" element={<Navigate to="/admin-dashboard" />} />

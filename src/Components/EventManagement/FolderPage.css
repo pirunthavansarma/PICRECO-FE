@@ -1,0 +1,68 @@
+/* FolderPage.css */
+
+.folder-page-container {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 15px; /* Space between images */
+  justify-items: center; /* Center images horizontally */
+}
+
+.folder-image {
+  width: 100%;
+  max-width: 200px; /* Ensure images don't exceed 200px in width */
+  height: 200px; /* Fixed height to maintain uniformity */
+  object-fit: cover; /* Maintain aspect ratio, cropping if necessary */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Add smooth hover effect */
+}
+
+.folder-image:hover {
+  transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+/* Share button and QR code section */
+.share-section {
+  margin-top: 30px;
+}
+
+.share-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.share-button:hover {
+  background-color: #0056b3;
+}
+
+.qr-section {
+  margin-top: 20px;
+}
+
+.download-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #218838;
+}

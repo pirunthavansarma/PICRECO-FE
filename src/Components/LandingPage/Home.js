@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Home.css';
-import gifImage from './LandDemo.gif'; // Make sure this path is correct
+import gifImage from './LandDemo.gif'; 
 
 const Home = () => {
   const navigate = useNavigate();
